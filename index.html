@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="grid.css">
+	<link rel="stylesheet" href="./media.css"> 
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item menu_logo" >
+            <div class="logo"> <img src="img/WD.png" alt="Grid"> </div>
+            <div class="menu">
+                <ul class="nav_menu">
+                    <li class="menu__list"><a href="#" class="menu__link firstbut"> ГЛАВНАЯ</a></li>
+                    <li class="menu__list"><a href="#aboutme" class="menu__link"> ОБ АВТОРЕ</a></li>
+                    <li class="menu__list"><a href="#project" class="menu__link"> РАБОТЫ</a></li>
+                    <li class="menu__list"><a href="#video" class="menu__link"> ПРОЦЕСС</a></li>
+                    <li class="menu__list"><a href="#messangeme" class="menu__link"> КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <div class="present">
+            <div class="img"> <img src="img/Frame.png" alt="Grid"> </div>
+                <div class="design">
+                <h1>Дизайн и верстка</h1>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    <a href="#messangeme"><button class="button button_write" >НАПИСАТЬ МНЕ</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item about_me" id="aboutme">
+            <div class="text">
+                <h2> Обо мне </h2> 
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div>            
+        </div>
+
+        <div class="grid-item project" id="project">
+            <div class="gallery">   
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap"> <p class="col-1 p_project">40+ проектов</p>                  
+            </div>
+        </div> 
+
+        <div class="grid-item skills">
+            <div class="skill">
+                <ul class="skills_list ">
+                    <h2>Мои навыки</h2>
+                    <div><p class="pskill">Adobe Photoshop</p>
+                                    <img src="./img/Rectangle 4.1.png" width="349.36px" height="4px"><img src="./img/Rectangle 4.png" width="95.4px" height="4px"> </div>
+                    <div><p class="pskill">Adobe Photoshop</p>
+                                    <img src="./img/Rectangle 4.1.png" width="349.36px" height="4px"><img src="./img/Rectangle 4.png" width="95.4px" height="4px"> </div>                    
+                    <div><p class="pskill">Adobe Photoshop</p>
+                                    <img src="./img/Rectangle 4.1.png" width="349.36px" height="4px"><img src="./img/Rectangle 4.png" width="95.4px" height="4px"> </div>
+                </ul>
+            </div>
+            <div class="photo">
+                <img src="./img/face.png" width="550px" height="450px" >
+            </div>
+        </div> 
+
+        <!--<div class="grid-item video" id="video">
+                <div class="text1">
+                <h2>Как я работаю</h2><br>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>
+                <div class="play">
+                    <img class="butplay" src="./img/play-button.png" width="100px" height="100px">
+                </div>
+        </div>
+
+        <div class="grid-item projects">
+            <div class="img1"><img src="./img/Rectangle 7.png" width="480px" height="480px"></div>
+            <div class="img2">
+                <div class="overlay"><img src="./img/view.png" width="100px" height="57.28px"></div>
+            </div>
+            <div class="img3"><img src="./img/Rectangle 7.png" width="480px" height="480px"></div>
+            <div class="img4"><img src="./img/Rectangle 7.3.png" width="480px" height="480px"></div>
+            <div class="img5"><img src="./img/Rectangle 7.3.png" width="480px" height="480px"></div>
+            <div class="img6"><img src="./img/Rectangle 7.png" width="480px" height="480px"></div>
+            <div class="img7"><img src="./img/Rectangle 7.3.png" width="480px" height="480px"></div>
+            <div class="img8"><img src="./img/Rectangle 7.png" width="480px" height="480px"></div>
+        </div>
+
+        <div class="grid-item micro">
+            <div class="micro1"><img src="./img/micro.png"></div>
+            <div class="micro2"><img src="./img/micro.png"></div>
+            <div class="micro3"><img src="./img/micro.png"></div>
+            <div class="micro4"><img src="./img/micro.png"></div>
+        </div>
+
+        <div class="grid-item form" id="messangeme">
+            <div class="textform"><h2>Хотите веб-сайт?</h2>
+            <p class=>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div>        
+            <input class="inp1" value="Ваше имя">
+            <input class="inp2" value="Ваш e-mail"> 
+            <textarea class="inp3" name="text">Сообщение</textarea>
+            <button class="butsend">ОТПРАВИТЬ</button>
+        </div>
+
+        <div class="grid-item bottomtask" id="messangeme">
+            <div class="inf">
+                <h3>Иванов Иван</h3>
+                <p class="p1">(с) 2018. Все права защищены.</p>
+            </div>
+                <img class="vk1" src="./img/vk-social-network-logo.png" width="43.75px" height="22.82px">
+                <img class="vk2" src="./img/vk-social-network-logo.png" width="43.75px" height="22.82px">
+                <img class="vk3" src="./img/vk-social-network-logo.png" width="43.75px" height="22.82px">
+        </div>
+    </div>-->
+    <script src="./main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
